@@ -30,32 +30,10 @@
 /* PayPal logo */
 
 .paypal-logo {
-  width: 65px;
+  width: 55px;
   height: 65px;
-  position: relative;
+  object-fit: contain;
   flex-shrink: 0;
-}
-
-.paypal-p {
-  position: absolute;
-  font-family: Arial, sans-serif;
-  font-size: 68px;
-  font-weight: 900;
-  font-style: italic;
-  line-height: 1;
-}
-
-.paypal-p-back {
-  color: #60cdff;
-  left: 7px;
-  top: 5px;
-}
-
-.paypal-p-front {
-  color: #003087;
-  left: 0;
-  top: 0;
-  clip-path: inset(0 0 35% 0);
 }
 
 /* Navigation links */

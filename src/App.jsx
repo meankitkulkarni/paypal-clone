@@ -1,12 +1,10 @@
 import { useState } from "react";
 import "./App.css";
+import navIcon from "./assets/nav-icon.png";
 
 function PayPalLogo() {
   return (
-    <div className="paypal-logo" aria-label="PayPal">
-      <span className="paypal-p paypal-p-back">P</span>
-      <span className="paypal-p paypal-p-front">P</span>
-    </div>
+    <img className="paypal-logo" src={navIcon} alt="PayPal" />
   );
 }
 
